@@ -15,6 +15,10 @@
 #define NAV     3
 #define EMPTY	4
 
+&caps_word {
+	continue-list = <UNDERSCORE MINUS>;
+};
+
 / {
 	behaviors {
         hm: homerow_mods {
@@ -26,10 +30,6 @@
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
         };
-
-		&caps_word {
-			continue-list = <UNDERSCORE MINUS>;
-		};
     };
 
 	keymap {

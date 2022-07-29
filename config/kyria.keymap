@@ -56,7 +56,7 @@
 	&none	&kp LBRC	&kp AMPS	&kp STAR	&kp LPAR	&kp RBRC																						&none		&kp F9	&kp F10	&kp F11	&kp F12	&none
 	&none	&kp DQT		&kp EXCL	&kp AT		&kp HASH	&kp PLUS																						&kp SLCK	&kp F1	&kp F2	&kp F3	&kp F4	&none
 	&none	&kp TILDE	&kp DLLR	&kp PRCNT	&kp CARET	&kp PIPE	&trans		&trans									&trans			&trans			&none		&kp F5	&kp F6	&kp F7	&kp F8	&none
-						&trans					&trans		&kp LPAR	&kp BSPC	&kp UNDER								&trans			&kp SPACE		&kp DEL		&trans		&trans
+						&trans					&kp LPAR	&kp RPAR	&kp BSPC	&kp UNDER								&trans			&kp SPACE		&kp DEL		&trans		&trans
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LC(LEFT) LC(RIGHT)>;
 		};

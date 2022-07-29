@@ -27,6 +27,9 @@
             bindings = <&kp>, <&kp>;
         };
     };
+	&caps_word {
+    	continue-list = <UNDERSCORE MINUS>;
+	};
 
 	keymap {
 		compatible = "zmk,keymap";
@@ -44,7 +47,7 @@
 		num_layer_1 {
 			bindings = <
 	&none	&kp LBKT	&kp N7	&kp N8	&kp N9	&kp RBKT																									&kp LC(Y)	&kp LS(INS)	&kp LC(INS)	&kp LS(DEL)	&kp LC(Z)	&none
-	&none	&kp SQT		&kp N1	&kp N2	&kp N3	&kp EQUAL																									&kp CAPS	&kp LEFT	&kp UP		&kp DOWN	&kp RIGHT	&none
+	&none	&kp SQT		&kp N1	&kp N2	&kp N3	&kp EQUAL																									&caps_word	&kp LEFT	&kp UP		&kp DOWN	&kp RIGHT	&none
 	&none	&kp GRAVE	&kp N4	&kp N5	&kp N6	&kp BSLH	&trans		&trans												&trans			&trans			&kp PLUS	&kp HOME	&kp PG_UP	&kp PG_DN	&kp END		&none
 						&trans			&kp DOT	&kp N0		&kp BSPC	&kp MINUS											&kp RET			&trans			&kp DEL		&trans		&trans
 			>;

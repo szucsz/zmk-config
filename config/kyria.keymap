@@ -19,6 +19,10 @@
 	continue-list = <UNDERSCORE MINUS BACKSPACE DELETE>;
 };
 
+&lt {
+	tapping-term-ms = <250>;
+}
+
 / {
 	behaviors {
         hm: homerow_mods {

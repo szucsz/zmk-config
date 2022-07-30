@@ -41,10 +41,10 @@
 
 		default_layer_0 {
 			bindings = <
-&kp PSCRN	&kp Q		&kp W		&kp E	&kp R		&kp T																						&kp Y		&kp U		&kp I		&kp O			&kp P			&kp UP
-&kp TAB		&hm LSHIFT A &kp S		&kp D	&lt NAV F	&kp G																						&kp H		&kp J		&kp K		&kp L			&hm LSHIFT SEMI	&kp DOWN
-&kp LALT	&kp Z		&hm LCTRL X	&kp C	&kp V		&kp B	&kp BSPC	&kp RET									&kp LSHFT		&kp LSHFT		&kp N		&kp M		&kp COMMA	&hm LCTRL DOT 	&kp FSLH		&kp RIGHT
-						&kp C_MUTE			&kp LCTRL	&kp ESC	&kp BSPC	&kp TAB									&lt SYM RET		&lt NUM SPACE	&kp DEL		&kp LEFT				&none
+&kp PSCRN	&kp Q		&kp W		&kp E		&kp R		&kp T																						&kp Y	&kp U		&kp I			&kp O			&kp P			&kp UP
+&kp TAB		&hm LSHIFT A &kp S		&kp D		&lt NAV F	&kp G																						&kp H	&kp J		&kp K			&kp L			&hm LSHIFT SEMI	&kp DOWN
+&kp LALT	&kp Z		&hm LCTRL X	&hm LGUI C	&kp V		&kp B	&kp BSPC	&kp RET									&kp LSHFT		&kp LSHFT		&kp N	&kp M		&hm LGUI COMMA	&hm LCTRL DOT 	&kp FSLH		&kp RIGHT
+						&kp C_MUTE				&kp LCTRL	&kp ESC	&kp BSPC	&kp TAB									&lt SYM RET		&lt NUM SPACE	&kp DEL	&kp LEFT					&none
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_VOL_DN C_VOL_UP>;
 		};

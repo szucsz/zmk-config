@@ -100,12 +100,12 @@
 		default_layer_0 {
             label = "QWERTY";
 			bindings = <
-&kp ESC		&kp Q		&kp W		&kp E		&kp R		&kp T																						&kp Y	&kp U		&kp I			&kp O			&kp P			&kp BSPC
-&kp LCTRL	HMGUI(A)	HMALT(S)	HMCTRL(D)	HMSHFT(F)	&kp G																						&kp H	HMSHFT(J)	HMCTRL(K)		HMALT(L)		HMGUI(SEMI)		&kp SQT
-&kp LSHFT	&kp Z		&kp X		&kp C		&kp V		&kp B	&kp BSPC	&kp RET									&kp LSHFT		&kp LSHFT		&kp N	&kp M		&kp COMMA		&kp DOT			&kp FSLH		&kp MINUS
-						&kp C_MUTE				&kp LWIN	META(ESC) NAV(BSPC) NUM(TAB)								FUN(RET)		SYM(SPACE)	MEDIA(DEL)	&kp LALT					&none
+&kp ESC		&kp Q		&kp W		&kp E		&kp R		&kp T																		&kp Y	&kp U		&kp I			&kp O			&kp P			&kp BSPC
+&kp LCTRL	HMGUI(A)	HMALT(S)	HMCTRL(D)	HMSHFT(F)	&kp G																		&kp H	HMSHFT(J)	HMCTRL(K)		HMALT(L)		HMGUI(SEMI)		&kp SQT
+&kp LSHFT	&kp Z		&kp X		&kp C		&kp V		&kp B	&kp BSPC	&kp RET					&kp LSHFT		&kp LSHFT		&kp N	&kp M		&kp COMMA		&kp DOT			&kp FSLH		&kp MINUS
+						&kp C_MUTE				&kp LWIN	META(ESC) NAV(BSPC) NUM(TAB)				FUN(RET)		SYM(SPACE)	MEDIA(DEL)	&kp LALT					&none
 			>;
-			sensor-bindings = <&inc_dec_kp LEFT RIGHT &inc_dec_kp LEFT RIGHT>;
+			sensor-bindings = <&inc_dec_kp DOWN UP &inc_dec_kp LEFT RIGHT>;
 		};
 
 // Right hand layers

@@ -105,7 +105,7 @@
 &kp LSHFT	&kp Z		&kp X		&kp C		&kp V		&kp B	&kp BSPC	&kp RET					&kp LSHFT		&kp LSHFT		&kp N	&kp M		&kp COMMA		&kp DOT			&kp FSLH		&kp MINUS
 						&kp C_MUTE				&kp LWIN	META(ESC) NAV(BSPC) NUM(TAB)				FUN(RET)		SYM(SPACE)	MEDIA(DEL)	&kp LALT					&none
 			>;
-			sensor-bindings = <&inc_dec_kp DOWN UP &inc_dec_kp LEFT RIGHT>;
+			sensor-bindings = <&inc_dec_kp UP DOWN &inc_dec_kp LEFT RIGHT>;
 		};
 
 // Right hand layers
